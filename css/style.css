@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Reset and base styles  */
+*,
+*::before,
+*::after {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+p + p {
+	margin-top: 1em;
+}
+
+ul {
+	list-style: none;
+}
+
+img, svg {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+
+/* Utility */
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: rgb(64, 64, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Обертка */
+
+.wrapper {
+    width: 500px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+/* Контент поиска */
+
+.search-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Строка ввода */
+
+.search-inp {
+    width: 70%;
+    border-bottom: 2px solid rgb(64, 64, 240);
+    padding-bottom: 10px;
+}
+
+/* Кнопка поиска */
+
+.search-btn {
+    width: 95px;
+    height: 40px;
+    background-color: rgb(64, 64, 240);
+    border-radius: 25px;
+    color: white;
+    margin-left: 10px;
+    transition: all .2s ease-in;
+}
+
+.search-btn:hover {
+    background-color: white;
+    border: 2px solid rgb(64, 64, 240);
+    color: rgb(64, 64, 240);
+}
+
+
+/* Текст валидации */
+
+.validation-text {
+    width: 100%;
+    text-align: center;
+    color: rgb(246, 61, 61);
+    display: none;
+}
+
+.validation-text.active {
+    display: block;
+}
+
+/* Контент о стране */
+.country-content {
+    display: none;
+}
+
+.country-content.active {
+    display: block;
+}
+
+/* Изображние флага страны */
+.flag-img {
+    width: 270px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+/* Название страны */
+.country-name {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Описание страны */
+.country-discription {
+    display: flex;
+    flex-direction: column;
+}
+
+.country-discription li + li {
+    margin-top: 7px;
+}
+
+.discription-answer {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
